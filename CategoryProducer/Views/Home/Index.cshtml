@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div>
+        <form asp-controller="Home" asp-action="CreateCategory">
+            <input name="categoryName" placeholder="enter category name..."/>
+            <button type="submit">Create</button>
+        </form>
+    </div>
+   <div>
+       <p>Selected: </p>
+        
+   </div>
+   <div>
+       <ul>
+    <li></li>
+</ul>
+   </div>
+</div>
